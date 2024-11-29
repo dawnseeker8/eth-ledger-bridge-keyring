@@ -25,7 +25,6 @@ export default defineConfig({
     outDir: "dist",
     sourcemap: false,
   },
-  base: "./",
 });
 
 function manualChunks(id) {
